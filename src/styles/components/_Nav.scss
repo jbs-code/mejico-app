@@ -1,0 +1,48 @@
+.nav {
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav-container{
+    position: fixed;
+    width: 20%;
+    height: 100vh;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav__buttons{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: all ease 0.5s;
+}
+
+.nav__buttons--focus{
+    opacity: 1;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.nav__buttons--not-focus{
+    opacity: 0;
+    pointer-events: none;
+    cursor: none;
+    transform: translateX(-15vh);
+}
+
+.nav-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .btn{
+        width: 50%;
+    }
+}

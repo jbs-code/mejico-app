@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../assets/textura-black.jpg');
+    font-family: 'Nunito', sans-serif;
+    color: $color-text;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1980;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-2{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    // border-left: 4px solid rgba($color: $color-border, $alpha: 0.7);
+    // box-shadow: -2px 0px 3px 3px rgba($color: $color-text, $alpha: 0.9);
+}
+
+.main{
+    width: 100%;
+    display: flex;
+}

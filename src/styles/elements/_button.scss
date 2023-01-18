@@ -1,0 +1,31 @@
+.btn{
+    padding: 10px;
+    width: 80%;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: $color-text;
+    text-shadow: 1px 1px rgba(63, 64, 65, 0.3);
+
+    transition: all ease 0.2s;
+}
+
+.btn-primary{
+    background-color: rgb(189, 196, 202);
+
+    &:hover{
+        background-color: darken($color: rgb(79, 82, 83), $amount: 15);
+        color: #fff;
+    }
+
+    &:active{
+        background-color: #fff;
+        color: $color-text;
+    }
+}
+
+.btn-home{
+    width:80px;
+    cursor: pointer;
+}
