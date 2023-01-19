@@ -1,4 +1,25 @@
-# Getting Started with Create React App
+# Mejico-APP
+Aplicación desarrollada con React que simula el menú de un restaurante mexicano.
+
+## Consideraciones 
+- Esta aplicación utiliza la API-Méjico que se encuentra en un host con limitaciones y no está todo el tiempo disponible.
+  
+- Es posible descargar el código de la API-Méjico y correrla de manera local en un puerto distinto y así poder trabajar con ambas aplicaciones. 
+  
+- API-Méjico corriendo esporádicamente [API-Méjico](https://api-mejico.jaimejb.com).
+  
+- Código de API-Méjico [GitHub](https://github.com/jbs-code/mejico-api).
+    
+## Run
+- La aplicación fue creada con create-react-app.
+  
+- Solo se necesita ejecutar *npm install* para instalar las dependencias.
+
+- Y ejecutar *npm start* para correr la aplicación.
+
+![portada](./src/assets/presentacion.png)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
